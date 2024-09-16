@@ -48,14 +48,6 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
 
 /**#@-*/
 
@@ -86,6 +78,14 @@ define( 'WP_DEBUG', false );
 
 
 /* That's all, stop editing! Happy publishing. */
+define('AUTH_KEY',         'dUZ`/1~!~7;[+|emD;&H<{-h-E~9Ry~r@5jR<t-Ct|AW4vb4O#1E4?bUs#X;b)wC');
+define('SECURE_AUTH_KEY',  'fqnM2|Q ~F`nqP/]$~)ZB-i<t7x=A}_!K$hRk0Wk`n?3Z`K%btqzEv4w`t9aI_ao');
+define('LOGGED_IN_KEY',    'u@B=*k9JOg6=vw*FS.|%,agOU?HIJ+[7>;Q=mi[|y[p[NiB@4LHdNMQ+/sW>,i{3');
+define('NONCE_KEY',        '||M&C6a#{pa0l3dS9gUxb97z[+d22wIlDm16XJs19=b8BjTotr~hBn%&8uBO^lBl');
+define('AUTH_SALT',        '-!w5g<{;eaN$WW8/ac~|-NkCh#{7}n+1K-s.Ou{$w)y$V5i{c?s7Ec^1Xc2sSQb-');
+define('SECURE_AUTH_SALT', 'uIgFUtF9W#OV_)k.XVbdVJ{RN-X(Gw()>$acf}xN@:Y-|X6qg@?|-UJmWC[}AC!h');
+define('LOGGED_IN_SALT',   '-}4(2=fx%[|`A>x9YF;~{I|A)Aqv#:IhfjoS7aNvGM-e1&hDl1=VoPW#y;ng%#}`');
+define('NONCE_SALT',       '9>Eb.vjaTrtyKCXi8V82=zS_:B/qF1N}ao5=(dYJTL-e5Q!i:tz)WPw21q~}81(m');
 
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
